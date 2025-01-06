@@ -36,8 +36,14 @@ node script/spawn_sqlite_vec_process.js
 
 
 ## Module ID
+4GB memory limit
 ```
 aXVDhhKS2rYPG0aB_16j_F8k9Jzj8RGbUaL8CgAKmgE
+```
+
+1GB memory limit
+```
+FvA44TrtfNIFcEbPAXlQxJv98vq418Am3vKduToDGU4
 ```
 
 ## Process ID using above module ID

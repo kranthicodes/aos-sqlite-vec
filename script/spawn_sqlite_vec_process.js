@@ -4,7 +4,7 @@ import "dotenv/config.js";
 // load Arweave wallet
 const wallet = JSON.parse(readFileSync(process.env.WALLET_PATH, "utf-8"));
 
-const MODULE_ID = "aXVDhhKS2rYPG0aB_16j_F8k9Jzj8RGbUaL8CgAKmgE";
+const MODULE_ID = "FvA44TrtfNIFcEbPAXlQxJv98vq418Am3vKduToDGU4";
 
 async function main() {
   const processId = await spawn({
@@ -18,6 +18,10 @@ async function main() {
       {
         name: "Authority",
         value: "fcoN_xJeisVsPXA-trzVAuIiqO3ydLQxM-L4XbrQKzY",
+      },
+      {
+        name: "Name",
+        value: "sqlite-vec-md",
       },
     ],
   });

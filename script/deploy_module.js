@@ -26,7 +26,7 @@ async function main() {
   );
   transaction.addTag("Input-Encoding", "JSON-1");
   transaction.addTag("Output-Encoding", "JSON-1");
-  transaction.addTag("Memory-Limit", "4-gb");
+  transaction.addTag("Memory-Limit", "1-gb");
   transaction.addTag("Compute-Limit", "9000000000000");
 
   // 签署并提交交易
