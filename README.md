@@ -26,13 +26,22 @@ pnpm install
 node script/deploy_module.js
 ```
 
+## Spawn a process
+
+Edit the MODULE_ID in script/spawn_sqlite_vec_process.js
+
+```
+node script/spawn_sqlite_vec_process.js
+```
+
+
 ## Module ID
 ```
 aXVDhhKS2rYPG0aB_16j_F8k9Jzj8RGbUaL8CgAKmgE
 ```
 
-## Spawn a process
+## Process ID using above module ID
 
 ```
-node script/spawn_sqlite_vec_process.js
+j9wxu5toAK2h_WicSkf1ypD-B5mXB5IxQVz9U5MYvPs
 ```
