@@ -1,0 +1,10 @@
+.DS_Store
+.build/
+.vscode/
+node_modules/
+vendor/**
+models/*
+test/process.js
+test/process.wasm
+wallet.json
+.env
